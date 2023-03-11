@@ -1,0 +1,18 @@
+@import url(https://fonts.bunny.net/css?family=exo:400,500,600);
+
+:root {
+  --text-xs: 1rem;
+  --text-sm: clamp(1.04rem, calc(0.85rem + 0.97vw), 1.6rem);
+  --text-md: 1.5rem;
+  --text-lg: clamp(1.5rem, calc(1.15rem + 1.74vw), 2.5rem);
+  --text-xl: 2.25rem;
+  --text-2xl: clamp(2.16rem, calc(1.55rem + 3.04vw), 3.91rem);
+  --text-3xl: clamp(2.59rem, calc(1.79rem + 3.98vw), 4.88rem);
+  --text-4xl: clamp(3.11rem, calc(2.07rem + 5.21vw), 6.1rem);
+}
+
+body {
+  background: #0A0A0B;
+  margin: 0;
+  font-family: 'Exo', sans-serif;
+}

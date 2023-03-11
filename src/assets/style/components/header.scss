@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.5rem 10rem;
+
+  .logo {
+    background: url("@/assets/images/logo.svg") no-repeat;
+    width: 71px;
+    height: 22px;
+  }
+
+  nav {
+    display: flex;
+
+    a {
+      font-weight: 500;
+      font-size: var(--text-xs);
+      color: #FFFFFF;
+      text-decoration: none;
+
+      margin-right: 3rem;
+
+      &:hover {
+        color: #4177DC;
+        text-shadow: 0 0 32px #346DDA;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
