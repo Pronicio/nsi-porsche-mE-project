@@ -1,0 +1,115 @@
+#popular {
+  padding: 12rem 3vw;
+
+  h3 {
+    font-weight: 600;
+    font-size: var(--text-md);
+    text-align: center;
+    color: #F1F2F3;
+    margin-bottom: 5rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 4vw;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+
+      padding: 42px 34px 28px;
+      background: #111213;
+      border-radius: 20px;
+
+      h5 {
+        font-weight: 600;
+        font-size: var(--text-md);
+        color: #F1F2F3;
+        margin: 5px 0;
+      }
+
+      h6 {
+        font-weight: 400;
+        font-size: var(--text-xs);
+        color: #BABEC4;
+        margin: 0;
+      }
+
+      img {
+        margin: 22px 0;
+        align-self: end;
+      }
+
+      .features {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .feature {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin: 0 10px 10px 0;
+
+          p {
+            margin: 0;
+            font-weight: 400;
+            font-size: var(--text-xs);
+            color: #FFFFFF;
+          }
+
+          .icon {
+            margin-right: 5px;
+          }
+
+          .dash-ic {
+            background: url("@/assets/icons/ri_dashboard-3-line.svg") no-repeat;
+            width: 17px;
+            height: 16px;
+          }
+
+          .funds-ic {
+            background: url("@/assets/icons/ri_funds-box-line.svg") no-repeat;
+            width: 17px;
+            height: 16px;
+          }
+
+          .charg-ic {
+            background: url("@/assets/icons/ri_charging-pile-2-line.svg") no-repeat;
+            width: 17px;
+            height: 16px;
+          }
+        }
+      }
+
+      .pricing {
+        font-weight: 600;
+        font-size: var(--text-sm);
+        color: #FFFFFF;
+        margin-bottom: 0;
+      }
+
+      .shop {
+        background: #4177DC;
+        border-radius: 20px 0;
+        padding: 9px;
+        width: fit-content;
+
+        position: relative;
+        bottom: -28px;
+        left: 186px;
+
+        display: none;
+
+        .shop-ic {
+          background: url("@/assets/icons/ri_shopping-bag-2-line.svg") no-repeat;
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}

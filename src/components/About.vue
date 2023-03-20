@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="text">
-      <h4>Machines With<br>Future Technology</h4>
+      <h3>Machines With<br>Future Technology</h3>
       <p>See the future with high-performance electric cars produced by renowned brands.
         They feature futuristic builds and designs with new and innovative platforms that last a long time.</p>
       <button>Know more</button>
