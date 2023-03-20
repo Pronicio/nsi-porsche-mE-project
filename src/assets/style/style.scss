@@ -2,7 +2,7 @@
 
 :root {
   --text-xs: 1rem;
-  --text-sm: clamp(1.04rem, calc(0.85rem + 0.97vw), 1.6rem);
+  --text-sm: 1.25rem;
   --text-md: 1.5rem;
   --text-lg: clamp(1.5rem, calc(1.15rem + 1.74vw), 2.5rem);
   --text-xl: 2.25rem;
@@ -15,4 +15,19 @@ body {
   background: #0A0A0B;
   margin: 0;
   font-family: 'Exo', sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4177dc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
 }

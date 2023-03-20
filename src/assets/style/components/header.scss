@@ -4,7 +4,7 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  padding: 1.5rem 10rem;
+  padding: 1.5rem 10vw;
 
   .logo {
     background: url("@/assets/images/logo.svg") no-repeat;
@@ -30,6 +30,20 @@ header {
 
       &:last-child {
         margin-right: 0;
+      }
+    }
+  }
+
+  @media (max-width: 595px) {
+    .logo {
+      display: none;
+    }
+
+    nav {
+      width: 100%;
+
+      a {
+        margin-right: auto;
       }
     }
   }
