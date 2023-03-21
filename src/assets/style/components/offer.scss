@@ -24,4 +24,13 @@
       color: #BABEC4;
     }
   }
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+
+    .right img {
+      margin-top: 4rem;
+      width: 100vw;
+    }
+  }
 }
