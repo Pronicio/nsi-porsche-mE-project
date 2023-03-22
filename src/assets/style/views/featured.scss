@@ -1,0 +1,25 @@
+#featured {
+  padding: 6rem 3vw 14rem;
+
+  h1 {
+    font-weight: 600;
+    font-size: var(--text-md);
+    text-align: center;
+    color: #F1F2F3;
+    margin: 0 0 4rem 0;
+  }
+
+  .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .map {
+      background: url("@/assets/images/features/map.png") no-repeat;
+      width: 870px;
+      height: 683px;
+      position: absolute;
+      z-index: -1;
+    }
+  }
+}
