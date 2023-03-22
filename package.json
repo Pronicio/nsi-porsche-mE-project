@@ -1,8 +1,9 @@
 {
   "name": "nsi-porsche-me-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "repository": "https://github.com/Pronicio/nsi-porsche-mE-project",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
