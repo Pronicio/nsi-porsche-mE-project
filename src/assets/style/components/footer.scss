@@ -1,0 +1,88 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 3rem 6vw;
+
+  .about {
+    display: flex;
+    flex-direction: column;
+
+    .logo {
+      background: url("@/assets/images/logo.svg") no-repeat;
+      background-size: 110px;
+      width: 110px;
+      height: 34px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: var(--text-xs);
+      color: #BABEC4;
+    }
+  }
+
+  table {
+    border-spacing: 6vw 5px;
+
+    @media (max-width: 880px) {
+      border-spacing: 0 5px;
+    }
+
+    tr {
+
+      th {
+
+        h4 {
+          font-weight: 600;
+          font-size: var(--text-sm);
+          color: #F1F2F3;
+          margin: 0 0 10px 0;
+        }
+      }
+
+      td {
+        font-weight: 400;
+        font-size: var(--text-xs);
+        color: #BABEC4;
+        cursor: pointer;
+
+        &:hover {
+          color: #4177DC;
+          text-shadow: 0 0 32px #346DDA;
+        }
+
+        .socials {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          .ic {
+            margin-right: 10px;
+          }
+
+          .facebook {
+            background: url("@/assets/icons/socials/ri_facebook-fill.svg") no-repeat;
+            width: 24px;
+            height: 24px;
+          }
+
+          .instagram {
+            background: url("@/assets/icons/socials/ri_instagram-line.svg") no-repeat;
+            width: 24px;
+            height: 24px;
+          }
+
+          .twitter {
+            background: url("@/assets/icons/socials/ri_twitter-line.svg") no-repeat;
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
